@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&display=swap');
+
+body {
+  margin: 0;
+  background-color: #f5f5f5;
+  font-family: 'Jost', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.ant-modal-content {
+  padding: 0px !important;
+}
+
+.react-multiple-carousel__arrow {
+  z-index: 100 !important;
+}
+
+.alert {
+  font-size: 12px;
+  color: #dc143c;
+}
